@@ -1,2 +1,20 @@
+[project]
+name = "toikka2025label"
+version = "1.0.0"
+description = "Label Correction for Road Segmentation Using Roadside Cameras"
+readme = { file = "README.md", content-type = "text/markdown" }
+authors = [
+  { name = "htoik", email = "henrik.toikka@aalto.fi" }
+]
+urls = { "Homepage" = "https://htoik.github.io/toikka2025label" }
+classifiers = [
+  "License :: OSI Approved :: MIT License",
+]
+
+[tool.setuptools]
+py-modules = ["toikka2025label"]
+include-package-data = true
+zip-safe = false
+
 [tool.black]
 line-length = 120

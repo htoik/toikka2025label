@@ -4,12 +4,7 @@ channels:
 dependencies:
   - python=3.12
   - numpy
-  - pytest
-  - cmake
   - pip
   - pip:
     - pre-commit
-    - black
-    - flake8
-    - isort
     - fourier-mellin==0.2.0
