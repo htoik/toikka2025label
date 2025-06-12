@@ -1,0 +1,12 @@
+name: example-dataset
+path: /path/to/dataset
+feeds:
+  C0000123:
+    frames: 100
+    mask_idx: 0
+  C0000456:
+    frames: 200
+    mask_idx: 50
+  C0000789:
+    frames: 150
+    mask_idx: 75
