@@ -12,9 +12,12 @@ classifiers = [
 ]
 
 [tool.setuptools]
-py-modules = ["toikka2025label"]
 include-package-data = true
 zip-safe = false
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["toikka2025label*"]
 
 [tool.black]
 line-length = 120

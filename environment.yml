@@ -7,4 +7,4 @@ dependencies:
   - pip
   - pip:
     - pre-commit
-    - fourier-mellin==0.2.0
+    - fourier-mellin==0.1.3
